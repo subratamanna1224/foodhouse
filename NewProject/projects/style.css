@@ -1,0 +1,43 @@
+
+.sub1{
+    
+    padding-left: 7.5%;
+
+}
+.sub{
+    padding-top: 10px;
+    color: rgb(118, 187, 175);
+}
+.sub2{
+    padding-right: 7%;
+}
+.navbar{
+    background-color: #0e6674;
+}
+.navbar.navbar-nav li a :hover{
+ color:#2c3e50;
+ background-color :#ecf0f1;
+ border-radius: 20px;
+}
+.sub4{
+    padding-top:30px;
+    padding-bottom: 50px;
+}
+.sub5{
+    color: rgb(240, 156, 0);
+    background-color: #0e6674;
+
+}
+.sub6{
+    color: rgb(41, 28, 8);
+    background-color:none;
+ 
+}
+.sub7{
+    background-color: orange;
+
+ 
+}
+.sub8{
+    padding-top: 20px;
+}
