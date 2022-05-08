@@ -158,37 +158,16 @@
                 <input type="text" class="form-control" placeholder="Your Name" name='name' id='name'/>
               </div>
               <div>
-                <input type="text" class="form-control" placeholder="Phone Number" name='number' id='number'/>
+                <input type="text" class="form-control" placeholder="Phone Number" name='phone_number' id='phone_number'/>
               </div>
               <div>
                 <input type="email" class="form-control" placeholder="Your Email" name='email' id='email'/>
               </div>
-              <div>
-                <select class="form-control nice-select wide">
-                  <option value="" disabled selected>
-                    How many persons?
-                  </option>
-                  <option value="">
-                    2
-                  </option>
-                  <option value="">
-                    3
-                  </option>
-                  <option value="">
-                    4
-                  </option>
-                  <option value="">
-                    5
-                  </option>
-                </select>
-              </div>
-              <div>
-                <input type="date" class="form-control">
-              </div>
+              
               <div class="btn_box">
-                <button>
-                  Book Now
-                </button>
+                <input type="submit">
+                 
+                
               </div>
             {{Form::close()}}
           </div>
