@@ -153,30 +153,57 @@
       <div class="row">
         <div class="col-md-6">
           <div class="form_container">
+
+            {{-- @if ($errors->any())
+             {{$errors}}
+            @endif --}}
             {{Form::open(array('url'=>'form_submit_test_post'))}}
+
               <div>
                 <input type="text" class="form-control" placeholder="Your Name" name='name' id='name'/>
               </div>
+              @error('name')
+            {{-- <span>{{$message}}</span> --}}
+            <p class="text-danger">{{$message}}</p>
+            @enderror
               <div>
                 <input type="text" class="form-control" placeholder="Phone Number" name='phone_number' id='phone_number'/>
               </div>
+              @error('phone_number')
+            {{-- <span>{{$message}}</span> --}}
+            <p class="text-danger">{{$message}}</p>
+            @enderror
+            <div>
               <div>
                 <input type="email" class="form-control" placeholder="Your Email" name='email' id='email'/>
+            </div>
+            @error('email')
+            {{-- <span>{{$message}}</span> --}}
+            <p class="text-danger">{{$message}}</p>
+            @enderror
+            <div>
+                <div>
+                  <input type="address" class="form-control" placeholder="Your Address with Landmark" name='address' id='address'/>
               </div>
-              
+            @error('address')
+            {{-- <span>{{$message}}</span> --}}
+            <p class="text-danger">{{$message}}</p>
+            @enderror
+            <div>
+
               <div class="btn_box">
                 <input type="submit">
-                 
-                
+
+
               </div>
             {{Form::close()}}
           </div>
         </div>
-        <div class="col-md-6">
+        {{-- <div class="col-md-6">
           <div class="map_container ">
             <div id="googleMap"></div>
           </div>
-        </div>
+        </div> --}}
       </div>
     </div>
   </section>
@@ -201,13 +228,13 @@
               <a href="">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span>
-                  Call +01 1234567890
+                  Call +91 9007058859
                 </span>
               </a>
               <a href="">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span>
-                  demo@gmail.com
+                  subata1224@gmail.com
                 </span>
               </a>
             </div>
@@ -284,6 +311,9 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
   <!-- End Google Map -->
+  <script>
+    function
+  </script>
 
 </body>
 

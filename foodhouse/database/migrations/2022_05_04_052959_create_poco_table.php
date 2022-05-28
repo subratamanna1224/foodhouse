@@ -18,6 +18,7 @@ class CreatePocoTable extends Migration
             $table->string('name');
             $table->string('phone_number');
             $table->string('email');
+            $table->string('address');
             $table->timestamps();
         });
     }
